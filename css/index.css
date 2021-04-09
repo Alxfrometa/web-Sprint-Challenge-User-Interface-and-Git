@@ -69,13 +69,10 @@ p {
 
 /* My Work */
 .links{
-    /* margin: 10px 25%; */
     display: flex;
-    width: 60%;
-
-    /* align-items: center; */
-    margin: 15px 20%;
-    /* justify-content: center; */
+    width: 100%;
+    margin: 15px 0;
+    justify-content: center;
     
 }
 .links nav{
@@ -164,6 +161,7 @@ footer {
 }
 
 footer nav {
+    margin-top: 20px;
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -176,3 +174,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* About Page */
+
+
+.About{
+    margin-bottom: 20px;
+    padding-bottom:10px;
+    border-bottom: black dashed 1px;
+}
+
+/* .top-haf .top-left{
+    width:40%;
+}
+.top-half .top-right{
+    width:40%;
+}
+.bottom-half .bottom-left{
+    width:40%;
+}
+.bottom-half .bottom-right{
+    width:40%;
+} */
+
+
+.mid{
+     display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.top-right{
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: black dashed 1px;
+    
+}
+
+.top-left{
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: black dashed 1px;
+    
+}
+.bottom-right{
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: black dashed 1px;
+}
+
+.bottom-left{
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: black dashed 1px;
+}
+     
+   
+    .mid img{
+        margin-bottom: 8px;
+
+    }
+
+
