@@ -186,18 +186,6 @@ footer nav a {
     border-bottom: black dashed 1px;
 }
 
-/* .top-haf .top-left{
-    width:40%;
-}
-.top-half .top-right{
-    width:40%;
-}
-.bottom-half .bottom-left{
-    width:40%;
-}
-.bottom-half .bottom-right{
-    width:40%;
-} */
 
 
 .mid{
@@ -234,7 +222,9 @@ footer nav a {
    
     .mid img{
         margin-bottom: 8px;
-
+    }
+    .description{
+        margin-bottom: 8px;
     }
 
 
