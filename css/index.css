@@ -72,8 +72,9 @@ p {
     line-height: 1.4;
 }
 
+/* Heading work */
 header{
-    margin: 2%;
+    margin-bottom: 2%;
 }
 header section{
     display: flex;
@@ -133,6 +134,8 @@ header nav{
     align-items: center;
     justify-content: center;
 }
+
+/* box colors */
 .middle-content .boxes :nth-child(1){
     background-color: teal;
 }
@@ -195,4 +198,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page styling */
+.about{
+    margin-bottom: 2%;
+    border-bottom: dotted black 1px;
+}
+.about p, h2{
+    margin: 2%;
 }
