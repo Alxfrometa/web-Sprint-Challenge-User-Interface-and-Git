@@ -202,10 +202,36 @@ footer nav a {
 
 
 /* About page styling */
+
+/* About Paragraph */
 .about{
     margin-bottom: 2%;
     border-bottom: dotted black 1px;
 }
 .about p, h2{
     margin: 2%;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 665px;
+}
+.quarter{
+    margin: 2%;
+    width:35%;
+    /* border-bottom: dotted black 1px; */
+}
+.description {
+    width: 160%;
+    padding-bottom: 6%;
+    margin-top: 3%;
+    border-bottom: dotted black 1px;
+}
+.description button{
+    margin-top: 3%;
+    padding: 2% 6%;
+    border-radius: 7px;
+    background-color: white;
 }
