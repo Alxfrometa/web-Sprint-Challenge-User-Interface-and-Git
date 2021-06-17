@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -62,8 +63,30 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 p {
     line-height: 1.4;
+}
+
+/* Heading work */
+header{
+    margin-bottom: 2%;
+}
+header section{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+header nav{
+    width: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .container {
@@ -112,6 +135,38 @@ p {
     justify-content: center;
 }
 
+/* box colors */
+.middle-content .boxes :nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes :nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes :nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes :nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes :nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes :nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes :nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes :nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes :nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes :nth-child(10){
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +198,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page styling */
+
+/* About Paragraph */
+.top-text{
+    margin-bottom: 2%;
+    border-bottom: dotted black 1px;
+}
+.top-text p, h2{
+    margin: 2%;
+}
+
+/* Gallery Section */
+.gallery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 665px;
+}
+.quarter{
+    margin: 2%;
+    width:35%;
+}
+.description {
+    width: 160%;
+    padding-bottom: 6%;
+    margin-top: 3%;
+    border-bottom: dotted black 1px;
+}
+.description button{
+    margin-top: 3%;
+    padding: 2% 6%;
+    border-radius: 7px;
+    background-color: white;
+}
+
+/* Bottom Text */
+.bottom-text{
+    margin-bottom: 4%;
+}
+.bottom-text p, h2{
+    margin: 2%;
 }
